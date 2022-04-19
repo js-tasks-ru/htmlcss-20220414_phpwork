@@ -1,0 +1,17 @@
+body {padding: 0; margin:0; color:white}
+
+header {background-color: #EB3223;}
+header > h1 {text-align: center; font-size: 4em; margin:0;}
+
+nav {background-color: #F29D38; text-align: center;}
+nav > ul {list-style: none; padding: 12px; margin:0;}
+nav > ul li {display: inline; padding: 1em;}
+nav > ul li a {font-size: 1.5em; color:white;}
+
+main {background-color: #489E4E; padding: 1em;}
+
+article {background-color: #002FF5; padding: 1em; margin-bottom: 12px;}
+article h2 {font-size: 160%;}
+article li {font-size: 110%;}
+
+footer {background-color: #AC35F6; text-align: center; font-size: 4em;}
