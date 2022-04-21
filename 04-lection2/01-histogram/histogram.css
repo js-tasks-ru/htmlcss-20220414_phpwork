@@ -1,0 +1,35 @@
+.histogram {
+    width: 500px; 
+    height: 300px; 
+    border: 1px solid var(--grey-3);
+    border-radius: 8px;
+    padding: 2em;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.histogram__title {
+    border: 1px solid blue;
+}
+
+.histogram__box { 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 150px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.histogram__item {
+    height: var(--hvalue);
+    flex-basis: 100%;
+    margin-right: 2px;
+    background-color: var(--blue);
+}
+
+.histogram__item:last-of-type {
+    margin-right: 0;
+}
