@@ -2,14 +2,14 @@
 .button {
     border: 0; 
     border-radius: 8px; 
-    min-width: 189px; 
-    min-height: 48px;
+    min-width: 182px; 
+    height: 48px;
     cursor: pointer;
-    
-    padding: 1em;
+    box-sizing: border-box;
+
+    padding: 15px 15px 14px;
     color: var(--white);
-    font-weight: normal;
-    font-size: .95rem;
+    font: normal 16px 'Roboto', sans-serif;
     
     transition: background 200ms ease-in-out, border 200ms ease-in-out;
 } 
