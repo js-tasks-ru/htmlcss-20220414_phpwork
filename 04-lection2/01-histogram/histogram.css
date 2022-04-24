@@ -1,33 +1,60 @@
 .histogram {
-    width: 500px; 
-    height: 300px; 
+    width: 354px; 
+    height: 185px; 
     border: 1px solid var(--grey-3);
     border-radius: 8px;
-    padding: 2em;
-    
+    padding: 16px 24px 24px;
+    box-sizing: border-box;
+
+    font: normal 16px 'Inter', 'Roboto', sans-serif;
+    line-height: 24px;
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
+.histogram__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .histogram__title {
-    border: 1px solid blue;
+    width: 200px;
+}
+
+.histogram__total {
+    font-size: 20px;
+    line-height: 26px;
+    padding-top: 6px;
+}
+
+.histogram__viewall {
+    padding-top: 3px;
+}
+
+.histogram__viewall__link {
+    text-decoration: none;
+    color: var(--light-blue);
 }
 
 .histogram__box { 
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    height: 150px;
+    
+    height: 50px;
     width: 100%;
-    border: 1px solid red;
+    padding: 0 3px 0 2px;
+    box-sizing: border-box;
 }
 
 .histogram__item {
     height: var(--hvalue);
     flex-basis: 100%;
-    margin-right: 2px;
-    background-color: var(--blue);
+    margin-right: 1px;
+    background-color: var(--light-blue);
 }
 
 .histogram__item:last-of-type {
