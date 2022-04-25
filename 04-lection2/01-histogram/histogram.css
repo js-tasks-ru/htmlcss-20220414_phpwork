@@ -1,6 +1,4 @@
 .histogram {
-    width: 354px; 
-    height: 185px; 
     border: 1px solid var(--grey-3);
     border-radius: 8px;
     padding: 16px 24px 24px;
@@ -21,7 +19,7 @@
 }
 
 .histogram__title {
-    width: 200px;
+    margin-right: 12px;
 }
 
 .histogram__total {
@@ -31,28 +29,28 @@
 }
 
 .histogram__viewall {
+    display: block;
     padding-top: 3px;
-}
-
-.histogram__viewall__link {
     text-decoration: none;
+    white-space: nowrap;
     color: var(--light-blue);
 }
 
 .histogram__box { 
     display: flex;
-    justify-content: space-between;
     align-items: flex-end;
     
     height: 50px;
     width: 100%;
+    margin-top: 38px;
     padding: 0 3px 0 2px;
     box-sizing: border-box;
 }
 
 .histogram__item {
     height: var(--hvalue);
-    flex-basis: 100%;
+    flex-basis: 9px;
+    flex-grow: 1;
     margin-right: 1px;
     background-color: var(--light-blue);
 }
