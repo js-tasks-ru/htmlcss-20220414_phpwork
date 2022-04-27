@@ -4,7 +4,7 @@
     padding: 16px 24px 24px;
     box-sizing: border-box;
 
-    font: normal 16px 'Inter', 'Roboto', sans-serif;
+    font-size: 16px;
     line-height: 24px;
 
     display: flex;
@@ -20,10 +20,11 @@
 
 .histogram__title {
     margin-right: 12px;
+    font-family: 'Inter', sans-serif;
 }
 
 .histogram__total {
-    font-size: 20px;
+    font: normal 20px 'Inter', sans-serif;
     line-height: 26px;
     padding-top: 6px;
 }
@@ -34,6 +35,7 @@
     text-decoration: none;
     white-space: nowrap;
     color: var(--light-blue);
+    font-family: 'Inter', sans-serif;
 }
 
 .histogram__box { 
@@ -42,7 +44,7 @@
     
     height: 50px;
     width: 100%;
-    margin-top: 38px;
+    margin-top: 37px;
     padding: 0 3px 0 2px;
     box-sizing: border-box;
 }
