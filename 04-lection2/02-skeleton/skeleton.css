@@ -4,7 +4,7 @@
     padding: 24px;
 }
 
-.skeleton_top {
+.skeleton__top {
     display: flex;
 }
 
@@ -27,19 +27,23 @@
     margin-top: 8px;
 }
 
-.skeleton__row-first {
+.skeleton__row_short {
     width: 39%;
 }
 
-.skeleton__row-second {
+.skeleton__row_medium {
     width: 57%;
 }
 
-.skeleton__row-third {
+.skeleton__row_almostlong {
+    width: 89%;
+}
+
+.skeleton__row_long {
     width: 97%;
+}
+
+.skeleton__bottom {
     margin-top: 24px
 }
 
-.skeleton__row-fourth {
-    width: 89%;
-}
