@@ -1,0 +1,15 @@
+.tooltip {
+
+}
+
+.tooltip__icon {
+
+}
+
+.tooltip__bubble {
+    display: none;
+}
+
+.tooltip__icon:hover ~ .tooltip__bubble {
+    display:block;
+}
