@@ -1,15 +1,46 @@
 .tooltip {
-
+    display: inline-block;
+    position: relative;
 }
 
 .tooltip__icon {
-
-}
-
-.tooltip__bubble {
-    display: none;
+    cursor: pointer;
 }
 
 .tooltip__icon:hover ~ .tooltip__bubble {
     display:block;
+}
+
+.tooltip__bubble {
+    background: var(--black);
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 10px;
+
+    padding: 10px 21px 11px;  /* поднял текст наверх на 3 пикс. чтобы визуально было как на макете */
+
+    font: 400 16px/24px 'Inter', sans-serif;
+    color: var(--grey-2);
+    text-align: center;
+    white-space: nowrap;
+
+    position: absolute;
+    bottom: calc(100% + 10px);
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: none;
+}
+
+.tooltip__bubble:before {
+    content: "";
+    width: 0;
+    height: 0;
+
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    border: 8px solid transparent;
+    border-top: 6px solid var(--black);
 }
